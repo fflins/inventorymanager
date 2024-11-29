@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de00b1c2-3c12-4498-8e40-a52810e420f3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/front-end/.angular/cache/18.2.11/estoque-front/.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/.angular/cache/18.2.11/estoque-front/.tsbuildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/.angular/cache/18.2.11/estoque-front/vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/.angular/cache/18.2.11/estoque-front/vite/deps/_metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/.angular/cache/18.2.11/estoque-front/vite/deps_ssr/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/.angular/cache/18.2.11/estoque-front/vite/deps_ssr/_metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/login/login.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/login/login.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/projetoGP/ProjetoGpApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/projetoGP/ProjetoGpApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/projetoGP/controller/AuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/projetoGP/controller/AuthenticationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/projetoGP/controller/MovimentacaoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/projetoGP/controller/MovimentacaoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/projetoGP/controller/ProdutoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/projetoGP/controller/ProdutoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/projetoGP/model/AuthenticationDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/projetoGP/model/AuthenticationDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/projetoGP/model/LoginResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/projetoGP/model/LoginResponseDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/projetoGP/model/Movimentacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/projetoGP/model/Movimentacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/projetoGP/model/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/projetoGP/model/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/projetoGP/model/RegisterDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/projetoGP/model/RegisterDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/projetoGP/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/projetoGP/model/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/projetoGP/model/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/projetoGP/model/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/projetoGP/repository/MovimentacaoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/projetoGP/repository/MovimentacaoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/projetoGP/repository/ProdutoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/projetoGP/repository/ProdutoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/projetoGP/repository/UsuarioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/projetoGP/repository/UsuarioRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/projetoGP/services/AuthorizationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/projetoGP/services/AuthorizationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/projetoGP/services/MovimentacaoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/projetoGP/services/MovimentacaoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/projetoGP/services/ProdutoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/projetoGP/services/ProdutoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/projetoGP/services/TokenService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/projetoGP/services/TokenService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/projetoGP/util/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/projetoGP/util/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/projetoGP/util/SecurityFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/projetoGP/util/SecurityFilter.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="svm67hac" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2p668LIMnXyJIxxdQcYSnkajQLP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.ProjetoGpApplication.executor": "Run",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "org.rust.first.attach.projects": "true",
+    "ts.external.directory.path": "/media/filippelins/dados/Faculdade/materias/6periodo/GP/estoque-manager/front-end/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ProjetoGpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="projetoGP" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.app.projetoGP.ProjetoGpApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.app.projetoGP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ProjetoGpApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de00b1c2-3c12-4498-8e40-a52810e420f3" name="Changes" comment="" />
+      <created>1732074024750</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732074024750</updated>
+      <workItem from="1732074030819" duration="1797000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/front-end/src/app/components/login/login.component.ts</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

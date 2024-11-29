@@ -1,0 +1,42 @@
+<div class="operation-container">
+  <h2 class="form-title">Remover Produto</h2>
+  
+  <form [formGroup]="removerForm" (ngSubmit)="onSubmit()" class="remover-form">
+    <div class="form-group">
+      <label for="codigo">Código do Produto</label>
+      <input 
+        id="codigo" 
+        formControlName="codigo" 
+        type="text" 
+        class="form-control"
+        placeholder="Digite o código do produto">
+    </div>
+
+    <div class="form-group">
+      <label for="quantidade">Quantidade a Remover</label>
+      <input 
+        id="quantidade" 
+        formControlName="quantidade" 
+        type="number" 
+        min="1" 
+        class="form-control"
+        placeholder="Digite a quantidade">
+    </div>
+
+    <div class="button-group">
+      <button type="submit" [disabled]="!removerForm.valid" class="submit-btn">
+        Remover Produto
+      </button>
+      <button type="button" (click)="voltar()" class="back-btn">
+        Voltar
+      </button>
+    </div>
+
+    <div *ngIf="feedbackMessage" 
+         class="feedback-message"
+         [ngClass]="{'success': feedbackMessage.includes('sucesso'), 
+                    'error': feedbackMessage.includes('erro')}">
+      {{ feedbackMessage }}
+    </div>
+  </form>
+</div>

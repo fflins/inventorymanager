@@ -1,0 +1,46 @@
+<div class="table-container">
+    <h2>Lista de Produtos</h2>
+    <table class="produtos-tabela">
+      <thead>
+        <tr>
+          <th>Código</th>
+          <th>Nome</th>
+          <th>Descrição</th>
+          <th>Quantidade</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let produto of produtos">
+          <td>{{ produto.codigo }}</td>
+          <td *ngIf="produtoEmEdicao && produtoEmEdicao.codigo === produto.codigo">
+            <input type="text" [(ngModel)]="produtoEmEdicao.nome" name="nome" required />
+          </td>
+          <td *ngIf="produtoEmEdicao && produtoEmEdicao.codigo === produto.codigo">
+            <input type="text" [(ngModel)]="produtoEmEdicao.descricao" name="descricao" required />
+          </td>
+          <td *ngIf="produtoEmEdicao && produtoEmEdicao.codigo === produto.codigo">
+            <input type="number" [(ngModel)]="produtoEmEdicao.quantidade" name="quantidade" required />
+          </td>
+  
+          
+          <ng-container *ngIf="!produtoEmEdicao || produtoEmEdicao.codigo !== produto.codigo">
+            <td>{{ produto.nome }}</td>
+            <td>{{ produto.descricao }}</td>
+            <td>{{ produto.quantidade }}</td>
+          </ng-container>
+  
+          <td>
+            <button *ngIf="produtoEmEdicao && produtoEmEdicao.codigo === produto.codigo" (click)="atualizarProduto()">Salvar</button>
+            <button *ngIf="produtoEmEdicao && produtoEmEdicao.codigo === produto.codigo" (click)="cancelarEdicao()" class="cancelar-btn">Cancelar</button>
+            
+            <button *ngIf="!produtoEmEdicao || produtoEmEdicao.codigo !== produto.codigo" (click)="selecionarProduto(produto)">Editar</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="voltar-container">
+    <button class="voltar-btn" (click)="voltar()">Voltar</button>
+  </div>
+  

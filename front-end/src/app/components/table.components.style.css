@@ -1,0 +1,161 @@
+.table-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-title {
+    color: #130544;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: all 0.2s;
+  }
+  
+  .search-bar:focus {
+    outline: none;
+    border-color: #130544;
+    box-shadow: 0 0 0 2px rgba(19, 5, 68, 0.1);
+  }
+  
+  .filter-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    gap: 1rem;
+  }
+  
+  .filter-btn {
+    flex: 1;
+    padding: 0.5rem 1rem;
+    background-color: #f7fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    color: #4a5568;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .filter-btn:hover {
+    background-color: #f0f4f8;
+    border-color: #130544;
+  }
+  
+  .produtos-tabela,
+  .movimentacoes-tabela {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .produtos-tabela thead,
+  .movimentacoes-tabela thead {
+    background-color: #f7fafc;
+  }
+  
+  .produtos-tabela th,
+  .movimentacoes-tabela th {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+    color: #2d3748;
+  }
+  
+  .produtos-tabela td,
+  .movimentacoes-tabela td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
+  .produtos-tabela tr:hover,
+  .movimentacoes-tabela tr:hover {
+    background-color: #f0f4f8;
+  }
+  
+ 
+.back-btn {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  background-color: transparent;
+  border: 2px solid #130544;
+  color: #130544;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.back-btn:hover {
+  background-color: #fdfdfd;
+  border-color: #130544; 
+}
+
+
+.download-btn {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  background-color: #130544;
+  border: 2px solid #130544;
+  color: white;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #130544;
+  border-color: #130544;
+}
+
+.clear-btn {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  background-color: #130544;
+  border: 2px solid #130544;
+  color: white;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.clear-btn:hover {
+  background-color: #130544;
+  border-color: #130544;
+}
+
+ 
+ .voltar-btn {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  background-color: transparent;
+  border: 2px solid #130544;
+  color: #130544;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.voltar-btn:hover {
+  background-color: #fdfdfd;
+  border-color: #130544; 
+}
