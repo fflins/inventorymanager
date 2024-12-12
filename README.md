@@ -1,6 +1,6 @@
-# Gerenciador de Produtos Genéricos
+# Inventory Manager
 
-Este é um projeto de um gerenciador de produtos genéricos para realizar operações CRUD com um sistema de Autenticaçao e Roles.
+Este é um projeto de um gerenciador de produtos genéricos para realizar operações CRUD num banco de dados.
 
 ## Tecnologias Utilizadas
 
